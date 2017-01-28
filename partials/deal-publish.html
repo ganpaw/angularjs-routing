@@ -37,7 +37,7 @@
          </tr>
        </tbody>
      </table>
-        <button class="btn btn-primary" ng-click="create()" ng-if="action == 'Submit'">{{action}} Deal</button>
+        <button class="btn btn-primary" ng-click="create()" ng-if="action == 'Submit'" ng-disabled="!deal.title.length || !deal.salePrice.length">{{action}} Deal</button>
         <button class="btn btn-primary" ng-click="update(deal._id)" ng-if="action == 'Update'">{{action}} Deal</button>
     </div>
 </div>

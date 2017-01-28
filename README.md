@@ -1,4 +1,4 @@
-AngularJS Routing - Simple CRUD Static Application
+AngularJS Routing - Simple CRUD Static Web Application
 ==========
 This is an AngularJS based static webapp for demonstration purpose.
 
