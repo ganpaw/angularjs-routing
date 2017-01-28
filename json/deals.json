@@ -1,0 +1,52 @@
+[
+  {
+      "_id": 1,
+      "storeName": "Best Buy",
+      "details": "Best Buy has the Apple Macbook Air 13.3",
+      "candyUrl": "http://www.bestbuy.com/site/apple-macbook-air-latest-model-13-3-display-intel-core-i5-8gb-memory-128gb-flash-storage-silver/6443034.p?skuId=6443034",
+      "salePrice": "750.0",
+      "originalPrice": "999.0",
+      "dealImage": "/images/apple-macbook13.jpg",
+      "title": "Apple Macbook Air 13.3\" 5th Gen Core i5 128GB Laptop (2015)"
+  },
+  {
+      "_id": 2,
+      "storeName": "eBay",
+      "details": "eBay with Mobile Pros 1 has the <i>refurbished</i> Apple iPad Air 2 64GB Wi-Fi 9.7\" Retina Tablet, Fall 2014 model (Gold, Gray, or Silver) for <B>$360</b> with free shipping. Features up to 10 hours of battery life.<br><br><li>A8X Triple-Core 1.5GHz CPU, 64GB storage, iOS 8.1<br><li>9.7\" 1536x2048 IPS LCD, 8MP camera, 1080p video",
+      "candyUrl": "http://www.ebay.com/itm/201557792296",
+      "salePrice": "360.0",
+      "originalPrice": "599.0",
+      "dealImage": "/images/apple-ipad-air-2.jpg",
+      "title": "Apple iPad Air 2 64GB 9.7\" Retina Tablet"
+    },
+  {
+      "_id": 3,
+      "storeName": "eBay",
+      "details": "Ends 4/25. eBay with Best Buy has the Samsung Chromebook 2 Bay Trail Dual-Core 11.6\" Laptop (Metallic Silver, XE500C12-K02US) on sale for <b>$179</b> with free shipping. Same price on Amazon (and also directly from Best Buy).<br><br><li>Intel Celeron N2840 2.16GHz, 4GB DDR3L, 16GB eMMC<br><li>11.6\" matte (1366x768), 802.11ac, BT 4.0, microSD, Chrome OS",
+      "candyUrl": "http://www.ebay.com/p/Samsung-Chromebook-2-XE500C12-11-6-16GB-Intel-Celeron-2-16GHz-4GB-Notebook-Metallic-Silver-XE500C12/219521354",
+      "salePrice": "179.0",
+      "originalPrice": "279.0",
+      "dealImage": "/images/samsung-chromebook-2.jpg",
+      "title": "Samsung Chromebook 2 Dual-Core 4GB RAM 11.6\" Laptop"
+  },
+  {
+      "_id": 4,
+      "storeName": "HP",
+      "details": "HP has the HP Pavilion 15z 6th Generation Carrizo-L AMD Quad-Core 15.6\" Laptop (Natural Silver) for $370 - $10 off with Natural Silver color - $15 off with code <B>HPSAVE15</B> [Exp 10/31] = <b>$345</b> with free shipping. Measures 0.99\" thin and weighs 5.07 lbs. Windows 10 Home (64-bit) installed.<br><br><li>AMD A8-7410 1.6GHz Quad-Core, 8GB DDR3L, 1TB HDD<br><li>AMD Radeon R5 graphics, 15.6\" LED (1366x768), 802.11b/g/n",
+      "candyUrl": "http://store.hp.com/us/en/pdp/hp-pavilion---15-au151nr-y1n97ua-aba",
+      "salePrice": "345.0",
+      "originalPrice": "580.0",
+      "dealImage": "/images/hp-pavilion-15.jpg",
+      "title": "HP Pavilion 15z AMD Quad-Core 15.6\" 8GB Laptop"
+  },
+  {
+     "_id": 5,
+     "storeName": "Newegg",
+     "details": "Newegg has the MSI GP62 Leopard Pro-002 5th Generation Core i7 Full HD 15.6\" Gaming Laptop (Black, 9S7-16J312-002) for $799 - $40 off with code <B>EMCETGH24</B> [Exp 4/24] - <a rel=\"nofollow\" href=\"/link/msi-gp62-leopard-pro-002-core-i7-15-6-gaming-laptop-689-at-newegg-488343/?linkid=0\" target=\"_new\">$70 rebate</a> [Exp 4/24] = <b>$689</b> with free shipping.<br><br><li>Intel Core i7-5700HQ 2.7GHz, 8GB DDR3L, 1TB HDD <br><li>15.6\" (1920x1080), 2GB GeForce GTX 950M, 802.11ac",
+     "candyUrl": "https://www.newegg.com/Product/Product.aspx?Item=N82E16834152879",
+     "salePrice": "689.0",
+     "originalPrice": "900.0",
+     "dealImage": "/images/msi-gp62-leopard.jpg",
+     "title": "MSI GP62 Leopard Pro-002 Core i7 15.6\" Gaming Laptop"
+   }
+]

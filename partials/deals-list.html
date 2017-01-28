@@ -1,0 +1,42 @@
+<div class = "panel panel-success">
+   <div class = "panel-heading">
+      <h5 class = "panel-title">
+        Deals List
+      </h5>
+   </div>
+   <div class = "panel-body">
+    <table class="table">
+      <thead>
+        <tr>
+          <th>_Id</th>
+          <th>&nbsp;</th>
+          <th>* Deal (Must be minimum 5 characters)</th>
+          <th>* Sale Price</th>
+          <th>Original Price</th>
+          <th>&nbsp;</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr ng-repeat="deal in deals track by $index">
+          <td width="10%">{{deal._id}}</td>
+          <td><img class="img-responsive img-rounded" src="{{deal.dealImage}}" width="40" alt=""></td>
+          <td><a href="#/deal-detail/{{deal._id}}">{{deal.title}}</a></td>
+          <td>{{deal.salePrice | currency }}</td>
+          <td>{{deal.originalPrice | currency }}</td>
+          <td><button class="btn btn-success" ng-click="edit(deal._id)">Edit</button>&nbsp;&nbsp;
+          <button class="btn btn-danger" ng-click="remove(deal._id)">Remove</button>
+          </td>
+        </tr>
+        <tr>
+          <td><button class="btn btn-primary" ng-click="addNewDeal()">Add Deal</button></td>
+          <td><button class="btn btn-info" ng-click="refresh()">Refresh</button></td>
+          <td>&nbsp;</td>
+          <td>&nbsp;</td>
+          <td>&nbsp;</td>
+          <td>&nbsp;</td>
+        </tr>
+      </tbody>
+    </table>
+  </div>
+</div>
+<input class="form-control" ng-model="message" placeholder="Enter a message for DealDetailCtrl">

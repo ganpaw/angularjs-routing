@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html ng-app="crudApp">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+  <!-- <base href="/"> -->
+
+  <title>AngularJS Routing</title>
+  <!-- Latest compiled and minified CSS -->
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+
+  <link href="https://fonts.googleapis.com/css?family=Josefin+Sans" rel="stylesheet">
+  <style media="screen">
+    font-family: 'Josefin Sans', sans-serif;
+    h1, h2, h3, h4, h5, h6 {
+        font-family: 'Josefin Sans';
+    }
+
+    p, div {
+        font-family: 'Josefin Sans';
+    }
+    .original-price {
+    	font-size: 1.5rem;
+    	text-decoration:line-through;
+    	margin: 0;
+    }
+    .price {
+        color: #009933;
+        font-weight: bold;
+        font-size: 1.6rem;
+    }
+  </style>
+
+  <!-- jQuery library -->
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+
+  <!-- Latest compiled JavaScript -->
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+  <script src="https://code.angularjs.org/1.6.1/angular.min.js"></script>
+  <script src="https://code.angularjs.org/1.6.1/angular-route.min.js" charset="utf-8"></script>
+  <script src="https://code.angularjs.org/1.6.1/angular-resource.min.js" charset="utf-8"></script>
+</head>
+<body>
+  <nav class="navbar navbar-default">
+   <div class="container">
+     <div class="navbar-header">
+       <a class="navbar-brand" href="/"><b>Angular Routing Example</b></a>
+     </div>
+
+     <ul class="nav navbar-nav navbar-right">
+       <li><a href="#/"><i class="fa fa-home"></i> Home</a></li>
+       <li><a href="#/deal-publish"><i class="fa fa-shield"></i> Publish Deal</a></li>
+     </ul>
+   </div>
+  </nav>
+  <!-- <div class="container" ng-controller="DealsListCtrl">
+    {{ test }}
+  </div> -->
+  <div class="container" ng-view>
+
+  </div>
+</body>
+<!-- AngularJS App Code ==================================================== -->
+<script src="js/components/services/crud-service.js" charset="utf-8"></script>
+<script src="js/components/controllers/crud-controller.js" charset="utf-8"></script>
+<script src="js/components/app.module.js" charset="utf-8"></script>
+</html>

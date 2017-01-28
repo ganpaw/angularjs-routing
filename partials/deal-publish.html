@@ -1,0 +1,43 @@
+<div class = "panel panel-success">
+     <div class = "panel-heading">
+        <h5 class = "panel-title">
+          {{action}} Deal Operation
+        </h5>
+     </div>
+     <div class = "panel-body">
+       <table class="table">
+         <tbody>
+           <tr>
+             <td width="10%">Store:</td>
+             <td><input class="form-control" ng-model="deal.storeName" placeholder="Enter Store" required="true"/></td>
+          </tr>
+           <tr>
+             <td width="10%">Deal Title:</td>
+             <td><input class="form-control" ng-model="deal.title" placeholder="Enter Deal" required="true"/></td>
+          </tr>
+          <tr>
+            <td width="10%">Sale Price:</td>
+            <td><input class="form-control" ng-model="deal.salePrice" placeholder="Enter Sale Price" required="true"/></td>
+          </tr>
+          <tr>
+            <td width="10%">Original Price</td>
+            <td><input class="form-control" ng-model="deal.originalPrice" placeholder="Enter Original Price"/></td>
+          </tr>
+          <tr>
+            <td width="10%">Deal URL:</td>
+            <td><input class="form-control" ng-model="deal.candyUrl" placeholder="Enter URL" required="true"/></td>
+          </tr>
+          <tr>
+            <td width="10%">Image URL:</td>
+            <td><input class="form-control" ng-model="deal.dealImage" placeholder="Enter Image URL" required="true"/></td>
+         </tr>
+          <tr>
+            <td width="10%">Details:</td>
+            <td><textarea class="form-control" rows="5" ng-model="deal.details" placeholder="Enter Details"/></td>
+         </tr>
+       </tbody>
+     </table>
+        <button class="btn btn-primary" ng-click="create()" ng-if="action == 'Submit'">{{action}} Deal</button>
+        <button class="btn btn-primary" ng-click="update(deal._id)" ng-if="action == 'Update'">{{action}} Deal</button>
+    </div>
+</div>

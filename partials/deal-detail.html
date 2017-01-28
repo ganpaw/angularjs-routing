@@ -1,0 +1,33 @@
+<div class = "panel panel-success">
+   <div class = "panel-heading">
+      <h5 class = "panel-title">
+         {{ deal.title }} at <b>{{ deal.storeName }}</b>
+      </h5>
+ </div>
+ <div class = "panel-body">
+     <div class="row">
+          <div class="col-xs-3 col-sm-4 col-md-3 col-lg-2">
+          <div class="row">
+              <span><img class="img-responsive img-rounded" src="{{deal.dealImage}}" alt=""></span>
+          </div>
+          </div>
+        <div class="col-xs-9 col-sm-8 col-md-9 col-lg-10">
+          <div class="row">
+            {{deal.details}}
+          </div>
+        <br/>
+          <div class="row">
+            <div>
+              <span class="price">{{deal.salePrice | currency }}</span>
+              <span class="original-price">{{deal.originalPrice | currency }}</span>
+            </div>
+          </div>
+          <br/>
+          <div class="row">
+            <button type="button" class="btn btn-success" ng-click="goToStore(deal.candyUrl)">Get Deal</button>
+        </div>
+      </div>
+      </div>
+  </div>
+</div>
+<input class="form-control" ng-model="message" placeholder="Enter a message for DealsListCtrl">
