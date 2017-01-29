@@ -19,7 +19,7 @@
       <tbody>
         <tr ng-repeat="deal in deals track by $index">
           <td width="10%">{{deal._id}}</td>
-          <td><img class="img-responsive img-rounded" src="{{deal.dealImage}}" width="40" alt=""></td>
+          <td><img class="img-responsive img-rounded" ng-src="{{deal.dealImage}}" width="40" alt=""></td>
           <td><a href="#/deal-detail/{{deal._id}}">{{deal.title}}</a></td>
           <td>{{deal.salePrice | currency }}</td>
           <td>{{deal.originalPrice | currency }}</td>
