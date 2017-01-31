@@ -1,4 +1,4 @@
-AngularJS Routing - Simple CRUD Static Web Application
+AngularJS Routing
 ==========
 [Demo](http://ganpaw.github.io/angularjs-routing)
 This is an AngularJS based static webapp for demonstration purpose.
